@@ -65,15 +65,15 @@
 # print(age > 18 and drink == alcohol)
 
 hi = " Hello World"
-print(hi.isalpha())
-print(hi.islower())
-print(hi.isupper())
+#print(hi.isalpha())
 #print(hi.endswith())
 #print(hi.startswith())
+#print(hi. upper())
+#print(hi.lower())
+
 print(hi.strip(" World").isalpha())
 print(hi.lower().islower())
 print(hi.upper().isupper())
-
-
-# and if the conditions have numbers, what happens?#
+print(hi.endswith("ld"))
+print(hi.startswith(" H"))
 

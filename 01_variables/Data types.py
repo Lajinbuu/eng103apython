@@ -71,9 +71,29 @@ hi = " Hello World"
 #print(hi. upper())
 #print(hi.lower())
 
-print(hi.strip(" World").isalpha())
-print(hi.lower().islower())
-print(hi.upper().isupper())
-print(hi.endswith("ld"))
-print(hi.startswith(" H"))
+# print(hi.strip(" World").isalpha())
+# print(hi.lower().islower())
+# print(hi.upper().isupper())
+# print(hi.endswith("ld"))
+# print(hi.startswith(" H"))
+
+print(bool(1))
+print(bool(0))
+print(bool(98))
+print(bool(-1.5))
+print(bool)
+print(int(bool(False)))
+print(int(bool(True)))
+
+print(bool("Hello"))
+empty = ""
+print(empty, type (empty), bool(empty))
+#none
+
+n = None
+print(n, type(n))
+print(bool(None))
+print(n is None) # is instead of ==, python prefers it
+print(type(15) is int)
+
 

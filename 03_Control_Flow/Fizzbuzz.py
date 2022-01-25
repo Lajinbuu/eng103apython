@@ -25,13 +25,16 @@
 
 
 # number = numbers[0:101], but have to inout
-start_number = int(input(
-    "Enter a start number"))  # made variable which represents the starting number, user will enter a starting number in the console
-end_number = int(input(
-    "Enter an end number"))  # made variable which represents the ending number, user will enter a starting number in the console
+start_number = int(input("Enter a start number"))  # made variable which represents the starting number, user will enter a starting number in the console
+end_number = int(input("Enter an end number"))  # made variable which represents the ending number, user will enter a starting number in the console
 phrase = input("Enter any word")  # first phrase
 phrase_2 = input("Enter another word")  # second phrase
 phrase_3 = input("Enter another word")  # thrid phrase
+users_number = input("Enter a valid number")
+while valid = True
+    users_number = input("Enter a digit"):
+
+if users_number.isdigit():
 for i in range(start_number, end_number):
     if i % 3 == 0 and i % 5 == 0:  # checks if number is divisible by 3 and 5
         print(phrase)
@@ -44,6 +47,7 @@ for i in range(start_number, end_number):
     else:
         print(i)
 
+# dry = don't repeat yourself
 ### if the player wanted to enter their own number they can follwo the steps bellow
 
 # int(input("Enter a number between 1-100"))

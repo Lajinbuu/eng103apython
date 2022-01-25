@@ -18,6 +18,7 @@ if certificate == "U":
     print("suitable for all ages")
 elif certificate.upper() in ("pg"):
     print("Parental guidance recommended")
-else: certificate.upper()
+else:
+    certificate.upper()
     print("you are not alive")
 

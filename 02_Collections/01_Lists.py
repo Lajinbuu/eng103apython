@@ -45,3 +45,25 @@ list_in_tuple = (
 print(len(list_in_tuple))
 print(list_in_tuple[0][-1])
 ## tuples are immutableee
+
+
+
+## lists continues
+
+text = "It was the best of times"
+text_list = text.split(" ")
+
+print(text_list, type (text_list))
+
+csv = "12, 355, 3456, 456, 67, 78 "
+csv_list = csv.split(",")
+print(csv)
+
+#join
+test_star = "---".join(text_list)
+print(" ".join(csv_list))
+
+n = [56, 32, 56, 678, 23, 1, 8]
+n.sort()
+# will sort it
+# sorted will change thi list

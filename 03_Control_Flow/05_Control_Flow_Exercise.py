@@ -98,24 +98,29 @@ print("\nQ4a\n")
 # the user should be prompted to enter another number
 # the user should be continuously prompted until the user enters a number greater than 100
 # the loop should end once the user enters a number greater 100
-
-
-
-
-
-
-
-
-
-
-user_number = 101
-
-while user_number > 100:
-    user_number = int(input("Please enter a digit greater than 100\n "))
-    if user_number >= 100:
+user_number = 0
+while user_number <100:
+    user_number = int(input("Please enter a digit greater than 100"))
+    if user_number >= 100: # if user_number is greater than 100 and is a digit? how do i check that
         print(user_number)
     else:
-        print("Enter another digit")
+        print("Try again")
+
+
+
+
+
+
+
+
+# user_number = 101
+#
+# while user_number > 100:
+#     user_number = int(input("Please enter a digit greater than 100\n "))
+#     if user_number >= 100:
+#         print(user_number)
+#     else:
+#         print("Enter another digit")
 
 
 
@@ -127,3 +132,17 @@ print("\nQ4b\n")
 # Q4b: Continue this code and print "prime" if the number is a prime number and "not prime" otherwise
 
 # A4b:
+## prime numbers can only be divisible by 1 and by istself.
+# anything that is not prime
+# while loop
+# while input = 0
+# if 6n+1 print prime
+# else print "not prime"
+user_num = 0
+
+while <100
+    user_num = int(input("Please enter a digit"))
+
+
+
+

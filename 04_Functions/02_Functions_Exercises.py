@@ -4,7 +4,30 @@ print("\nQ1a\n")
 # hint: range(1, n) returns a collection of the numbers from 1 to n-1
 
 # A1a:
+# def name (int)
+# range (1, n)
+# between a range with 1 being the lowest value and n being the highest
+# the numbers within that range should return % ==0, the numbers which return %==0 should be listed
+# t = []
+# i want to take the numbers in the range which can be divided by the number inputed
+# i then want to return the numbers produced and put them into a list
+#attempt 1
+# def divisors (num):
+#     for integer in range(1, num):
+#         if integer % integer == 0:
+#
+#     return integer
+#
+# attempt 2
+def divisors(n):
+    empty_list = []
+    for i in range(1, int(n+ 1)):
+        if n % i == 0:
+            empty_list.append(i)
+    print(empty_list)
 
+
+divisors(8)
 
 
 print("\nQ1b\n")
@@ -13,6 +36,12 @@ print("\nQ1b\n")
 # (bonus points if you call your previous function within this function
 
 # A1b:
+def factorials (num1, num2):
+    if num1 % num2 == 0:
+        print(num1)
+    elif num2 % num1 == 0:
+        print(num2)
+factorials(3,9)
 
 
 
@@ -24,7 +53,13 @@ print("\nQ2a\n")
 #             "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " "]
 
 # A2a:
-
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+             "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " "]
+# def number_assigner (string):
+# my_list = []
+#     for i in string.index([]):
+#         print(string)
+# number_assigner(alphabet)
 
 
 print("\nQ2b\n")

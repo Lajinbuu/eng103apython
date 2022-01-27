@@ -2,10 +2,11 @@
 
 
 # Abstraction
-#makes complicated actions easier for our users
-#for example accletate and it just happnes
-# they do anything for acclerate to happen
+# makes complicated actions easier for our users
+# for example accletate and it just happnes
+# they do anything for accelerate to happen
 # even with multiple steps the user has access without having to do anything
+#
 
 #providing methods ot interact
 # just does it
